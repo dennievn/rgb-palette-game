@@ -1,0 +1,68 @@
+/* 
+    RGB Color Palette Game
+    Developer: Duong Nguyen aka Dennie
+*/
+body{
+    background-color: rgb(37, 14, 14);
+    color: rgb(255, 215, 0);
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+}
+.square{
+    width: 30%;
+    background-color: rgb(255, 215, 0);
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+    transition: background 0.5s;
+    -webit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+#container{
+    max-width: 600px;
+    /* MAKING IT THE SAME SIDE ON EITHER SIDE */
+    margin: 20px auto;
+    text-align: center;
+}
+h1 {
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+.selected{
+    color: white;
+    background: #250e0e;
+}
+#colorDisplay{
+    font-size: 200%;
+}
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 600;\
+    font-size: inherit;
+    transition: all 0.5s;
+    -webit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    outline: none;
+}
+button:hover{
+    color: white;
+    background: #250e0e;
+}
+#message{
+    display: inline-block;
+    width: 20%;
+}
