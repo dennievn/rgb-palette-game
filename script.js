@@ -40,13 +40,13 @@ function setupSquares(){
         squares[i].addEventListener("click", function(){
             var clickedSquare = this.style.backgroundColor;
             if(clickedSquare === pickedColor){
-                messageDisplay.textContent = "YOU'RE CORRECT!";
+                messageDisplay.textContent = "CORRECT!";
                 resetButton.textContent = "Play Again?";
                 changeColor(clickedSquare);
                 h1.style.backgroundColor = clickedSquare;
             } else {
                 this.style.backgroundColor = "#250e0e";
-                messageDisplay.textContent = "TRY AGAIN";
+                messageDisplay.textContent = "Try Again";
                 }
             });
         }
